@@ -54,11 +54,11 @@ Esta es una aplicación de lista de tareas (TODO App) desarrollada en JavaScript
 ├── src
 │   ├── store
 │   │   └── todo.store.js    # Maneja el LocalStorage
-│   ├── todos
-│   │   ├── models           # Las clases del modelo
-│   │   ├── use-cases        # Casos de uso
-│   │   ├── app.html         # Html que se carga en el index.html
-│   │   └── app.js           # Mantiene la lógica de la aplicación
+│   └── todos
+│       ├── models           # Las clases del modelo
+│       ├── use-cases        # Casos de uso
+│       ├── app.html         # Html que se carga en el index.html
+│       └── app.js           # Mantiene la lógica de la aplicación
 ├── styles.css               # Estilos de la plantilla utilizada
 └── package.json
 
