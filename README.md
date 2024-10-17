@@ -49,14 +49,17 @@ Esta es una aplicación de lista de tareas (TODO App) desarrollada en JavaScript
  
  ```bash
 .
-├── index.html
+├── index.html      
+├── main.js                  # Inicia la aplicación
 ├── src
-│   ├── js
-│   │   ├── app.js         # Lógica principal de la aplicación
-│   │   ├── storage.js     # Módulo para manejo del Local Storage
-│   │   └── events.js      # Módulo para manipulación de eventos
-│   ├── css
-│   │   └── styles.css      # Estilos de la aplicación
+│   ├── store
+│   │   └── todo.store.js    # Maneja el LocalStorage
+│   ├── todos
+│   │   ├── models           # Las clases del modelo
+│   │   ├── use-cases        # Casos de uso
+│   │   ├── app.html         # Html que se carga en el index.html
+│   │   └── app.js           # Mantiene la lógica de la aplicación
+├── styles.css               # Estilos de la plantilla utilizada
 └── package.json
 
    
