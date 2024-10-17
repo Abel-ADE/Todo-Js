@@ -61,5 +61,3 @@ Esta es una aplicación de lista de tareas (TODO App) desarrollada en JavaScript
 │       └── app.js           # Mantiene la lógica de la aplicación
 ├── styles.css               # Estilos de la plantilla utilizada
 └── package.json
-
-   
